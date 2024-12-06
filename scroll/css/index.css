@@ -1,0 +1,28 @@
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.first {
+  background-color: peachpuff;
+}
+
+.second {
+  background-color: skyblue;
+}
+
+.third {
+  background-color: lemonchiffon;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  transform: translateX(300px);
+}
+
+.text {
+  opacity: 0;
+  transform: translateY(100px);
+}

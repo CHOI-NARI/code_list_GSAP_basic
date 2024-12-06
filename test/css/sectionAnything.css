@@ -1,0 +1,24 @@
+.test {
+  width: 100vw;
+  height: 100vh;
+  background-color: skyblue;
+}
+
+.anythingContainer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anythingBox {
+  flex: 0 0 1000px;
+  width: 100%;
+  height: 100%;
+}
+.imgAnything {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

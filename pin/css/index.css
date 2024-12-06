@@ -1,0 +1,49 @@
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+.first {
+  background-color: skyblue;
+}
+
+.second {
+  background-color: peachpuff;
+}
+
+.third {
+  background-color: aqua;
+}
+
+.fourth {
+  background-color: green;
+}
+
+.fifth {
+  background-color: blue;
+}
+
+.sixth {
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 700;
+  flex: 0 0 200px;
+}
+
+.card > h1 {
+  font-size: 30px;
+}
+
+.card > h3 {
+  font-size: 24px;
+}
